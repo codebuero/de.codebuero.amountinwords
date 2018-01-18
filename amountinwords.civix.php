@@ -92,6 +92,9 @@ function _amountinwords_civix_civicrm_config(&$config = NULL) {
   $configured = TRUE;
 
   $template =& CRM_Core_Smarty::singleton();
+  
+  // add local plugin folder to smarty plugin files list
+  array_push($template->plugins_dir, __DIR__  . '/plugins');
 
   $extRoot = dirname(__FILE__) . DIRECTORY_SEPARATOR;
   $extDir = $extRoot . 'templates';
