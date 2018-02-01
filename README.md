@@ -14,11 +14,6 @@ The extension is licensed under [AGPL-3.0](LICENSE.txt).
 * Drupal (7.54)
 * CiviCRM (4.6.33)
 
-## Installation (Web UI)
-
-Clone the extension in your civicrm extension folder. Make sure the files & folders have proper
-read/write/execute rights. Afterwards install the extension in the extension menu in CiviCRM.
-
 ## Installation (CLI, Zip)
 
 Sysadmins and developers may download the `.zip` file for this extension and
@@ -38,6 +33,12 @@ install it with the command-line tool [cv](https://github.com/civicrm/cv).
 git clone https://github.com/codebuero/de.codebuero.amountinwords.git
 cv en amountinwords
 ```
+
+## Installation (Web UI)
+
+Follow one of the installation ways above to get the unzipped extension on your server.
+After refreshing the list of available extensions (bottom left in administration -> system settings -> manage extensions),
+you should see the extension manifest. Click 'Install' next to the extension name.
 
 ## Usage
 
